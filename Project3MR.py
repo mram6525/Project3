@@ -5,7 +5,7 @@ filename = 'localcopy.log'
 
 filename, headers = urlretrieve(url, filename)
 
-#Read Data
+AmazonLog = open(filename)
 
 #Tokenize String
 
